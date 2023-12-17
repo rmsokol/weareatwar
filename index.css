@@ -1,0 +1,66 @@
+
+
+.banner {
+    background-image: url("war.png");
+    padding: 1em;
+    display: grid;
+    /* border: 5px solid green; */
+    
+}
+#col1 {
+    grid-area: 1 / 1 / 2 / 2;
+    padding: 1em;
+    /* border: 5px solid navy; */
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: .25em;
+    color: black;
+    text-shadow: 2px 3px silver;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 2em;
+    color: silver
+}
+
+p {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 2em;
+    padding-left: 1em;
+}
+img {
+    width: 12em;
+    display: flex;
+    margin: 0 auto;
+}
+img:hover {
+    transform: scale(.85);
+}
+#quote-space {
+    grid-area: 1 / 2 / 2 / 3;
+    align-items: center;
+    padding-left: 1em;
+    padding-top: 2em;
+    border-left: 3px dashed yellow;
+    border-radius: 5px;
+    /* border: 5px solid yellow; */
+}
+
+button {
+    border: 2px solid grey;
+    background-color: black;
+    border-radius: 8px;
+}
+button:hover {
+    border: 2px solid red;
+    background-color: whitesmoke;
+}
+
